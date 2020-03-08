@@ -1,1 +1,78 @@
 
+body  {
+    background-image: url("../images/bckground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    zoom: normal;
+    
+  }
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 85px;
+    
+  }
+  
+  .column {
+    width: 450px;
+    flex: 33.33%;
+    padding: 5px;
+    
+    justify-content: center;
+    margin: auto;
+  }
+
+  /* auto resize */
+  @media screen and (max-width: 500px) {
+    .column {
+      
+      justify-content: center;
+    }
+  }
+
+  .h1_class {
+      text-align: center;
+      color: white;
+      padding-top: 150px;
+      padding-bottom: 400px;
+      font-stretch: wider;
+      font-style: oblique;
+      font-weight: 800;
+      
+
+  }
+
+  .h2_class {
+    text-align: center;
+    color: white;
+}
+
+    .h3_class {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .header {
+    position: fixed;
+    left: 0;
+    top:  0;
+    width: 75%;
+    background-color: gray;
+    background-blend-mode: soft-light;
+    margin-left: 12.5%;
+    color: black;
+    text-align: center;
+  }
