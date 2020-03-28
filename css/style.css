@@ -34,8 +34,8 @@ body  {
     display: flex;
     justify-content: center;
     margin: auto;
-    padding-left: 85px;
-    background-color: #6F2232;
+    color: #C3073F;
+    
     
   }
   .column {
@@ -91,6 +91,9 @@ body  {
     margin: 320px;
     padding: 20px;
 }
+.h2_right{
+  margin-left: 60%;
+}
 /* 'data geo and spatial.. etc subtitle style */
   .h3_class {
     margin-top: 150px;
@@ -109,12 +112,13 @@ body  {
     bottom: 0;
     width: 100%;
     font-size: 30px;
-    color: #C3073F;
+    color: white;
     text-align: center;
     margin-top: 50px;
     background-color: #4E4E50;
-    margin-left: 10%;
-    width: 80%;
+    
+    
+    width: 100%;
     border-radius: 8px;
   }
 .footer span {
@@ -123,7 +127,8 @@ body  {
   font-size: 15px;
   padding-bottom: 5px; 
 }
-  
+
+ 
 
 
 
@@ -155,7 +160,7 @@ body  {
   
   header {
       z-index: 100;
-      margin-left: 32.3%;
+      margin-left: 33%;
       padding: 20px 0;
       position: fixed;
       background-color: #4E4E50;
@@ -201,6 +206,26 @@ h5{
   padding-bottom: 100px;
 
 }
+h6{
+  text-align: center;
+  font-size: 36px;
+  color: #C3073F;
+}
+.noblock_class{
+  text-align: center;
+  font-size: 24px;
+  font-family: monospace;
+}
+.text_blocks {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 .more_head_image {
@@ -236,7 +261,7 @@ h5{
 .float_blurb {
   float: right;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .float_blurb_l {
   float: left;
