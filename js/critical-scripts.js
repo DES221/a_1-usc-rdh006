@@ -1,5 +1,10 @@
-$(window).scroll(function() {
-    var theta = $(window).scrollTop() / 10 % Math.PI;
-    $('#leftgear').css({ transform: 'rotate(' + theta + 'rad)' });
-    $('#rightgear').css({ transform: 'rotate(-' + theta + 'rad)' });
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".header").addClass("active_1");
+        } else {
+           
+           $(".header").removeClass("active_1");
+        }
     });
+});

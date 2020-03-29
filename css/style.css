@@ -58,9 +58,11 @@ body  {
       color: white;
       padding-top: 150px;
       padding-bottom: 40px;
+      font-size: 36px;
       font-stretch: wider;
       background-color: #6F2232;
       font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 3px;
   }
   .h1_class span{
     text-align: center;
@@ -92,8 +94,93 @@ body  {
     padding: 20px;
 }
 .h2_right{
-  margin-left: 60%;
+  margin-left: 62.5%;
 }
+.h2_right_wedding{
+  margin-left: .5%;
+  background-color: #6F2232;
+  color: white;
+  margin-right: 5%;
+  padding: 5px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+.h2_right_wedding span{
+  color: #6F2232;
+}
+.h2_right_hist{
+  margin-left: .5%;
+  background-color: #6F2232;
+  margin-right: 5%;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  
+}
+.h2_right_hist span{
+  color: #6F2232;
+}
+.h2_left{
+  margin-left: 4%;
+}
+.h2_left_more{
+  margin-left: 7%;
+}
+.h2_HRM{
+  margin-left: 7%;
+  background-color: #4E4E50;
+  padding: 5px;
+  width: 91.5%;
+  color: #1A1A1D;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+.h2_HRM span{
+  color: #4E4E50;
+}
+.h2_CHFA_left{
+  margin-left: 5%;
+  background-color: #4E4E50;
+  padding: 5px;
+  width: 93.5%;
+  color: #1A1A1D;
+  border-radius: 5px;
+}
+.h2_CHFA_left span{
+  color: #4E4E50;
+}
+.textboxes_history{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.textboxes_history span{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  background-color: #6F2232;
+  border-radius: 8px;
+  padding: 10px;
+}
+.textboxes_history_2{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.textboxes_history_2 span{
+  text-align: center;
+  font-size: 20px;
+  color: #1A1A1D;
+  letter-spacing: 2px;
+  background-color: #4E4E50 ;
+  border-radius: 8px;
+  padding: 10px;
+}
+
 /* 'data geo and spatial.. etc subtitle style */
   .h3_class {
     margin-top: 150px;
@@ -117,7 +204,7 @@ body  {
     margin-top: 50px;
     background-color: #4E4E50;
     
-    
+    letter-spacing: 3px;
     width: 100%;
     border-radius: 8px;
   }
@@ -206,15 +293,22 @@ h5{
   padding-bottom: 100px;
 
 }
+/* titles : Qualifications / proficiencies */
 h6{
   text-align: center;
   font-size: 36px;
   color: #C3073F;
+  font-family: 'Courier New', Courier, monospace;
+  
+  
+  letter-spacing: 2px;
 }
+/* proficiencies / qualifications subtext */
 .noblock_class{
   text-align: center;
   font-size: 24px;
   font-family: monospace;
+  font-weight: 700;
 }
 .text_blocks {
   float: left;
@@ -284,3 +378,6 @@ h6{
   display: block;
 }
 
+.active_1 { 
+  background-color: #C3073F;
+}
