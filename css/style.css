@@ -83,7 +83,7 @@ body  {
   .center_icons_footer{
     padding-top: 0px;
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
   }
   /*unused */
   .h2_class {
@@ -94,7 +94,13 @@ body  {
     padding: 20px;
 }
 .h2_right{
-  margin-left: 62.5%;
+  margin-left: 60%;
+}
+.h2_right span{
+  color: #fff;
+  
+  padding: 5px;
+  letter-spacing: 2px;
 }
 .h2_right_wedding{
   margin-left: .5%;
@@ -122,10 +128,21 @@ body  {
   color: #6F2232;
 }
 .h2_left{
-  margin-left: 4%;
+  margin-left: 2%;
+}
+.h2_left span{
+  color: white;
+  letter-spacing: 2px;
 }
 .h2_left_more{
-  margin-left: 7%;
+  margin-left: 4%;
+}
+.h2_left_more span{
+ 
+  letter-spacing: 2px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
 }
 .h2_HRM{
   margin-left: 7%;
@@ -291,6 +308,7 @@ h5{
   font-size: 20px;
   color: #fff;
   padding-bottom: 100px;
+  letter-spacing: 2px;
 
 }
 /* titles : Qualifications / proficiencies */
@@ -303,12 +321,18 @@ h6{
   
   letter-spacing: 2px;
 }
+h6 span{
+  background-color: #4E4E50;
+  padding: 10px;
+  color: #1A1A1D;
+}
 /* proficiencies / qualifications subtext */
 .noblock_class{
   text-align: center;
   font-size: 24px;
   font-family: monospace;
   font-weight: 700;
+  color: #C3073F;
 }
 .text_blocks {
   float: left;
@@ -380,4 +404,58 @@ h6{
 
 .active_1 { 
   background-color: #C3073F;
+}
+/* style guide */
+.arial_style_1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+.arial_style_2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.mono_style_1{
+  font-family: monospace;
+  font-size: 24px;
+  text-align: center;
+}
+.mono_style_2{
+  font-family: monospace;
+  font-size: 36px;
+  text-align: center;
+}
+.mono_style_3{
+  font-family: monospace;
+  font-size: 45px;
+  text-align: center;
+}
+.roman_1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: center;
+}
+.roman_2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.roman_3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+}
+.roman_4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+
+}
+.typography{
+  align-content: center;
+  margin-left: 25%;
 }
