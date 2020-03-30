@@ -235,9 +235,37 @@ body  {
   }
   /* remove hyperlink text, inherit color from parent */
   a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
   }
+  
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+  }
+  
+  a:after {
+    border-radius: 1em;
+    
+    border-top: .1em solid #C3073F;
+    content: "";
+    position: absolute;
+      right: 100%;
+      bottom: .01em;
+      left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1);
+  }
+  
+  a:hover:after {
+    right: 0;
+  }
+  
   /* footer style with span for copyright subtitle */
   .footer {
     position: relative;
@@ -494,4 +522,11 @@ h6 span{
   letter-spacing: 2px;
   color: #fff;
   text-align: center;
+}
+.subheading{
+  margin-left: 41%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: monospace;
+  color: #fff;
 }
