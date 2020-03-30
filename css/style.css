@@ -16,6 +16,20 @@ body  {
   position: relative;
   overflow: hidden;
 }
+.circle_style{
+  border-radius: 50%;
+  margin-left: 10%;
+  height: 150px;
+  width: 150x;
+  display: inline-block;
+  position: relative;
+  
+  
+}
+.rotate_style {
+  animation: rotation 8s infinite linear;
+  animation-delay: 1s;
+}
 /* rotation animation with css for photo */
 .rotate {
   animation: rotation 60s infinite linear;
@@ -38,12 +52,27 @@ body  {
     
     
   }
+.row_style {
+    display: flex;
+    justify-content: center;
+    margin-left: -2.5%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+  }
   .column {
     width: 450px;
     flex: 33.33%;
     padding: 5px;
     justify-content: center;
     margin: auto;
+  }
+  .column_style{
+    padding: 20px;
+    margin-left: 2%;
   }
 
   /* auto resize for responsiveness */
@@ -264,7 +293,7 @@ body  {
   
   header {
       z-index: 100;
-      margin-left: 33%;
+      margin-left: 32.5%;
       padding: 20px 0;
       position: fixed;
       background-color: #4E4E50;
@@ -272,6 +301,7 @@ body  {
       display: inline-block;
       
   }
+  
   
   /* remove bullets from li */
   nav.header_nav ul {
@@ -299,7 +329,7 @@ body  {
   li.active span {
     border-bottom: 3px solid #C3073F;
     border-radius: 0;
-    color: #ccc;
+    color: #fff;
 }
 
 /*quote text */
@@ -410,52 +440,58 @@ h6 span{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   text-align: center;
+  color: #fff;
 }
 .arial_style_2{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
   letter-spacing: 2px;
   text-align: center;
+  color: #fff;
 }
 
 .mono_style_1{
   font-family: monospace;
   font-size: 24px;
   text-align: center;
+  color: #C3073F;
 }
 .mono_style_2{
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 36px;
   text-align: center;
+  background-color: #4E4E50;
+  color: #1A1A1D;
+  font-weight: 600;
 }
 .mono_style_3{
   font-family: monospace;
   font-size: 45px;
   text-align: center;
+  color: #fff;
 }
 .roman_1{
   font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
   text-align: center;
+  letter-spacing: 3px;
+  color: #fff;
 }
 .roman_2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   text-align: center;
   letter-spacing: 2px;
+  color: #fff;
 }
-.roman_3{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 30px;
-  text-align: center;
-}
-.roman_4{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 50px;
-  text-align: center;
 
-}
 .typography{
   align-content: center;
   margin-left: 25%;
+}
+.right_text{
+  font-family: monospace;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
 }
