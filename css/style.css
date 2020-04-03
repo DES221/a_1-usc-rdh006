@@ -7,8 +7,17 @@ body  {
     
   }
   
-  header {
+  .logo{
+    position: fixed;
+    color: rgba(219, 219, 224, 0.212);
+    padding-top: 520px;
+    font-size: 30px;
+    font-family: monospace;
     z-index: 100;
+    
+  }
+  header {
+    z-index: 101;
     margin-left: 30%;
     padding: 20px 0;
     position: fixed;
@@ -179,7 +188,7 @@ li.active span {
 }
 .h2_right_wedding{
   margin-left: .5%;
-  background-color: #6F2232;
+  
   color: white;
   margin-right: 5%;
   padding: 5px;
@@ -187,11 +196,11 @@ li.active span {
   letter-spacing: 2px;
 }
 .h2_right_wedding span{
-  color: #6F2232;
+  color: #4E4E50;
 }
 .h2_right_hist{
   margin-left: .5%;
-  background-color: #6F2232;
+  
   margin-right: 5%;
   padding: 5px;
   border-radius: 5px;
@@ -200,7 +209,7 @@ li.active span {
   
 }
 .h2_right_hist span{
-  color: #6F2232;
+  color: #4E4E50;
 }
 .h2_left{
   margin-left: 2%;
@@ -221,26 +230,26 @@ li.active span {
 }
 .h2_HRM{
   margin-left: 7%;
-  background-color: #4E4E50;
+  
   padding: 5px;
   width: 91.5%;
-  color: #1A1A1D;
+  color: #fff;
   border-radius: 5px;
   letter-spacing: 2px;
 }
 .h2_HRM span{
-  color: #4E4E50;
+  color: #6F2232;
 }
 .h2_CHFA_left{
   margin-left: 5%;
-  background-color: #4E4E50;
+  
   padding: 5px;
   width: 93.5%;
-  color: #1A1A1D;
+  color: #fff;
   border-radius: 5px;
 }
 .h2_CHFA_left span{
-  color: #4E4E50;
+  color: #6F2232;
 }
 .textboxes_history{
   text-align: center;
@@ -266,7 +275,7 @@ li.active span {
 .textboxes_history_2 span{
   text-align: center;
   font-size: 20px;
-  color: #1A1A1D;
+  color: #fff;
   letter-spacing: 2px;
   background-color: #4E4E50 ;
   border-radius: 8px;
